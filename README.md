@@ -9,3 +9,5 @@ Local temperature server which sends JSON response of current temperature and hu
 | RHT03 |
 
 Sensor Library - [DHTesp](https://github.com/beegee-tokyo/DHTesp)
+
+This code is for ESP8266 if you want to use ESP32 check [ESP32 branch](/esp32)
