@@ -110,7 +110,7 @@ void loop()
     {
       //send json
       s = F("HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\n\r\n");
-      s += "{\"temp\":";
+      s += "{\"temperature\":";
       s += String(temperature, 3);
       s += ",\"humidity\":";
       s += String(humidity, 3);
